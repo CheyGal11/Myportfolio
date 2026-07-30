@@ -11,7 +11,7 @@
     "preview": "astro preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
+  "devDependencies": {
     "astro": "^7.1.6"
   }
 }
