@@ -1,30 +1,37 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import "../styles/global.css";
 ---
 
-<Layout>
-  <!-- Header Section -->
-  <section style="text-align:center; padding:2rem;">
-    <img src="/profile.jpg" alt="Profile picture of Chey" width="120" height="120" style="border-radius:50%;" />
-    <h1>Chey</h1>
-    <p>BSIT 3rd Year Student | Cebu</p>
-    <p>Learning coding step by step and building my future portfolio.</p>
-  </section>
+<html>
+  <body>
+    <header>
+      <img src="/profile.jpg" alt="Profile picture of Chey" style="width:150px; border-radius:50%;" />
+      <h1>Chey</h1>
+      <h3>BSIT 3rd Year Student | Cebu</h3>
+      <p>Learning coding step by step and building my future portfolio.</p>
+    </header>
 
-  <!-- About Section -->
-  <section style="padding:2rem;">
-    <h2>About Me</h2>
-    <p>I'm a student passionate about technology, K‑dramas, anime, and gaming. My goal is to improve my coding skills, English fluency, and creativity.</p>
-  </section>
+    <section id="about">
+      <h2>Hello!</h2>
+      <p>I'm a student passionate about technology, K-dramas, anime, and gaming. 
+      My goal is to improve my coding skills, English fluency, and creativity.</p>
+    </section>
 
-  <!-- Skills Section -->
-  <section style="padding:2rem;">
-    <h2>Skills</h2>
-    <ul>
-      <li>Basic HTML & Networking</li>
-      <li>Programming (beginner)</li>
-      <li>Microsoft Word (advanced)</li>
-      <li>Public Speaking (intermediate)</li>
-    </ul>
-  </section>
-</Layout>
+    <section id="skills">
+      <h2>Expertise</h2>
+      <ul>
+        <li>Web Development (HTML, CSS, Astro)</li>
+        <li>Networking Basics</li>
+        <li>Public Speaking</li>
+        <li>Editing & Design</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Let’s Talk!</h2>
+      <p>Email: chey@example.com</p>
+      <p>GitHub: github.com/cheygal</p>
+      <p>LinkedIn: linkedin.com/in/cheygal</p>
+    </section>
+  </body>
+</html>
