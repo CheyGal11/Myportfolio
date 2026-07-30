@@ -1,11 +1,30 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+  <!-- Header Section -->
+  <section style="text-align:center; padding:2rem;">
+    <img src="/profile.jpg" alt="Profile picture of Cheryl" width="200" style="border-radius:50%;" />
+    <h1>Chey</h1>
+    <p>BSIT 3rd Year Student | Cebu</p>
+    <p>Learning coding step by step and building my future portfolio.</p>
+  </section>
+
+  <!-- About Section -->
+  <section style="padding:2rem;">
+    <h2>About Me</h2>
+    <p>I'm a student passionate about technology, K‑dramas, anime, and gaming. My goal is to improve my coding skills, English fluency, and creativity.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section style="padding:2rem;">
+    <h2>Skills</h2>
+    <ul>
+      <li>Basic HTML & Networking</li>
+      <li>Programming (beginner)</li>
+      <li>Microsoft Word (advanced)</li>
+      <li>Public Speaking (intermediate)</li>
+    </ul>
+  </section>
 </Layout>
